@@ -3,44 +3,80 @@
 <head>
     <title> PALAKSHI'S WEB PAGE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <h1> Welcome To My Web Page.</h1>
-    <section id="apps">
-        <h1> APPS</h1>
-        <div class="line"></div>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/Tj5FjIVOh-S4z2gWNLcTmdnwqsBg2BzeImzGwXTOtms/embed"></iframe>
+    <div class="container">
+        <section id="apps">
+            <h1> APPS</h1>
+            <div class="line"></div>
 
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/XRoUui59w2rNIddCvAbZbNVn8sUBeEhJsYBPFU3m-3A/embed"></iframe>
-        <br>
-        <br>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/aIBRTplHrKnxz6kkQCTb9aHe1UPdk-8MTzoAL5piuio/embed"></iframe>
-        <br>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/JtnkypyNyM_GUFUjw-ZT1dzBkoDJ4AX6atpk2zSsEU4/embed"></iframe>
+            <div id="mycarousel1" class="carousel slide">
+                <div class="carousel-inner">
+                    
+                    <div class="item active">
+                        <center>
+                            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/Tj5FjIVOh-S4z2gWNLcTmdnwqsBg2BzeImzGwXTOtms/embed"></iframe>
+                        </center>
+                    </div>
 
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/UDjqlnodHALVjNtNz9tZTx1TOHEFFIVguhc1rwQaCiw/embed"></iframe>
+                    <div class="item">
+                        <center>
+                            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/XRoUui59w2rNIddCvAbZbNVn8sUBeEhJsYBPFU3m-3A/embed"></iframe>
+                        </center>
+                    </div>
 
-    </section>
+                    <div class="item">
+                        <center>
+                            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/aIBRTplHrKnxz6kkQCTb9aHe1UPdk-8MTzoAL5piuio/embed"></iframe>
+                        </center>
+                    </div>
 
-    <section id="games">
-        <h1> GAMES</h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/spritelab/dphuimVDCQZp7NeEexL23yZt4dfvZYk6Zmy7NbZofGw" target="_blank">
-            <img src="winnie-the-pooh-bee-clipart-5.png">
-        </a>
+                    <div class="item">
+                        <center>
+                            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/JtnkypyNyM_GUFUjw-ZT1dzBkoDJ4AX6atpk2zSsEU4/embed"></iframe>
+                        </center>
+                    </div>
 
-        <a href="https://studio.code.org/projects/spritelab/VIFg1CGGBk1sO-M6M9B2GWMODOpYEfP2LafObRtiunY" target="_blank">
-            <img src="download.png">
-        </a>
-    </section>
-    <section id="games">
-        <h1> CHATBOT</h1>
-        <div class="line"></div>
+                    <div class="item">
+                        <center>
+                            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/UDjqlnodHALVjNtNz9tZTx1TOHEFFIVguhc1rwQaCiw/embed"></iframe>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#mycarousel1" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
 
-        <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/d63950ea-dae6-4a88-8201-daee35643cc6">
-        </iframe>
-    </section>
+                <a class="right carousel-control" href="#mycarousel1" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+
+        <section id="games">
+            <h1> GAMES</h1>
+            <div class="line"></div>
+            <a href="https://studio.code.org/projects/spritelab/dphuimVDCQZp7NeEexL23yZt4dfvZYk6Zmy7NbZofGw" target="_blank">
+                <img src="winnie-the-pooh-bee-clipart-5.png">
+            </a>
+
+            <a href="https://studio.code.org/projects/spritelab/VIFg1CGGBk1sO-M6M9B2GWMODOpYEfP2LafObRtiunY" target="_blank">
+                <img src="download.png">
+            </a>
+        </section>
+        <section id="games">
+            <h1> CHATBOT</h1>
+            <div class="line"></div>
+
+            <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/d63950ea-dae6-4a88-8201-daee35643cc6">
+            </iframe>
+        </section>
+    </div>
 </body>
 
 </html>
