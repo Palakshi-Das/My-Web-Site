@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: lightpink;
+}
+
+.line{
+    width: 100px;
+    height: 5px;
+    background: black;
+    margin: auto;
+}
+
+iframe{
+    margin: 10px;
+}
+
+#apps{
+    background-color: hotpink;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    margin: 40px;
+    transition: transform 0.2s;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
